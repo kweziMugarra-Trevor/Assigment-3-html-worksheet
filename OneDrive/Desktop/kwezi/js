@@ -1,0 +1,8 @@
+// "Find the button" — like pointing at it and saying "that one"
+const button = document.getElementById("infoBtn");
+const text = document.getElementById("infoText");
+
+// "When someone clicks the button, do this"
+button.addEventListener("click", function() {
+    text.style.display = "block"; // makes the hidden text appear
+});
